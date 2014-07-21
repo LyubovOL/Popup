@@ -60,6 +60,9 @@
     font-style: normal;
     float: right;
     vertical-align: top;
+    border: hidden;
+    background: transparent;
+    cursor:pointer;
 }
 .line{
     margin-bottom: 0px;
@@ -149,14 +152,12 @@
     margin-top: 2px;
     display: list-item;
     list-style-type: none;
-    list-style-position: inside;
     padding: 0px;
 }
 .information-references-address{
     margin-top: 4px;
     display: list-item;
     list-style-type: none;
-    list-style-position: inside;
     padding: 0px;
 }
 .button-checkout{
@@ -173,14 +174,16 @@
     color: #335400;
     font-size: 16px;
     height: 35px;
-    /*width: 170px;*/
+    cursor:pointer;
 }
-
 .information-list-item{
     margin-top: 10px;
     height: 16px;
 }
 .information-image{
-    margin-right: 10px;
+    margin-right: 5px;
     vertical-align: middle;
+}
+.referaences-color{
+    color: #6bc6e5;
 }

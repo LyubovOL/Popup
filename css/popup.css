@@ -135,7 +135,8 @@
     border-style: solid;
     border-color: #cecece;
     height: 85px;
-    overflow: scroll;
+    overflow-y: scroll;
+
 }
 .information-list{
     display: list-item;
